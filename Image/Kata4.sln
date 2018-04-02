@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata4.WebApp", "Kata4.WebApp\Kata4.WebApp.csproj", "{755CDDD5-F29B-49EB-9320-324D233BF2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata4.Core", "Kata4.Core\Kata4.Core.csproj", "{1DA37967-847D-4542-96D0-0172FCEB54F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata4.Repository", "Kata4.Repository\Kata4.Repository.csproj", "{D7321F3C-A682-4FA6-8555-8B1563B579F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata4.Infrastructure", "Kata4.Infrastructure\Kata4.Infrastructure.csproj", "{920F470B-D6F7-43E0-BBB2-A716EE5A0310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata4.Test", "Kata4.Test\Kata4.Test.csproj", "{D09A5D31-E9C0-4F56-A7C8-738B24CAA726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata4.Infrastructure.Log", "Kata4.Infrastructure.Log\Kata4.Infrastructure.Log.csproj", "{4728EDCC-6129-4450-A7E2-9362C3653607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata4.Web", "Kata4.Web\Kata4.Web.csproj", "{B9FF0482-9D8A-44D3-8B43-78E5ACBAC44B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{755CDDD5-F29B-49EB-9320-324D233BF2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755CDDD5-F29B-49EB-9320-324D233BF2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755CDDD5-F29B-49EB-9320-324D233BF2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755CDDD5-F29B-49EB-9320-324D233BF2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA37967-847D-4542-96D0-0172FCEB54F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA37967-847D-4542-96D0-0172FCEB54F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA37967-847D-4542-96D0-0172FCEB54F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA37967-847D-4542-96D0-0172FCEB54F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7321F3C-A682-4FA6-8555-8B1563B579F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7321F3C-A682-4FA6-8555-8B1563B579F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7321F3C-A682-4FA6-8555-8B1563B579F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7321F3C-A682-4FA6-8555-8B1563B579F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920F470B-D6F7-43E0-BBB2-A716EE5A0310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920F470B-D6F7-43E0-BBB2-A716EE5A0310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920F470B-D6F7-43E0-BBB2-A716EE5A0310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920F470B-D6F7-43E0-BBB2-A716EE5A0310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09A5D31-E9C0-4F56-A7C8-738B24CAA726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09A5D31-E9C0-4F56-A7C8-738B24CAA726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09A5D31-E9C0-4F56-A7C8-738B24CAA726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09A5D31-E9C0-4F56-A7C8-738B24CAA726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4728EDCC-6129-4450-A7E2-9362C3653607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4728EDCC-6129-4450-A7E2-9362C3653607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4728EDCC-6129-4450-A7E2-9362C3653607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4728EDCC-6129-4450-A7E2-9362C3653607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9FF0482-9D8A-44D3-8B43-78E5ACBAC44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FF0482-9D8A-44D3-8B43-78E5ACBAC44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FF0482-9D8A-44D3-8B43-78E5ACBAC44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FF0482-9D8A-44D3-8B43-78E5ACBAC44B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60C08E5D-7C8A-4CDA-9CCF-CFF9F0D6F134}
+	EndGlobalSection
+EndGlobal

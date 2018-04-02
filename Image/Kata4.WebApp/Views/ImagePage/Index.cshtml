@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Index</title>
+</head>
+<body>
+<div>
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <script type="text/javascript">
+            alert("@(ViewBag.ErrorMessage)");
+        </script>
+    }
+
+    <img src="@Url.Action("Show", "ImagePage", new {id = 1})"/>
+</div>
+</body>
+</html>
